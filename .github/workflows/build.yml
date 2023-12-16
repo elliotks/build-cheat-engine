@@ -23,7 +23,7 @@ jobs:
 #         }
 #         ./lazarus-2.2.0-fpc-3.2.2-win64.exe /verysilent
 
-    - run: lazbuild -B "Cheat Engine/cheatengine.lpi" --cpu=x86_64 --build-mode="Release 64-Bit O4 AVX2"
+    - run: lazbuild -B "Cheat Engine/cheatengine.lpi" --cpu=x86_64 --build-mode="Release 64-Bit"
 
 #     - run: ls -r '*.lpi' | % { lazbuild -B $_ --cpu=x86_64 --build-mode="Release 64-Bit O4 AVX2" }
     
